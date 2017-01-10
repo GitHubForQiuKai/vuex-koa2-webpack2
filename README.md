@@ -1,4 +1,14 @@
-目录结构说明：  
+###步骤说明：  
+1、cd vuex-koa2-webpack2  
+2、npm install(或yarn install)  
+3、gulp(编译后端文件)  
+4、npm run build:dev（编译前端文件）
+5、cd bulid/server
+6、node app.js
+7、访问localhost:8081
+
+
+###目录结构说明：  
 |--conf  
 > |--config.js //webpack的辅助配置  
 	|--webpack.base.js	//webpack的基本配置   

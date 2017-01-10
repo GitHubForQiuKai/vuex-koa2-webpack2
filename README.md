@@ -17,14 +17,14 @@
 
 |--src   
 >> |--server	//基于koa2搭建的后台服务   
->>> |--config	//全局配置文件  
+>>>> |--config	//全局配置文件  
 		|--controllers	//路由控制  
 		|--models	//模型模块  
 		|--service	//服务层（请求后端接口：例如:java等）  
 		|--app.es	//启动文件  
 
 >>|--webapp	//基于vuex的前端文件  
->>>|--apis //封装请求接口(一般配合vue-resource使用)  
+>>>>|--apis //封装请求接口(一般配合vue-resource使用)  
 		|--assets	//静态资源  
 		|--components //vue组件  
 		|--store //vuex的store  
